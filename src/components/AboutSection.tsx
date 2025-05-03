@@ -40,10 +40,11 @@ const AboutSection = () => {
             <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-purple-500/10 z-0"></div>
             
             <div className="relative z-10 rounded-xl overflow-hidden shadow-lg">
-              {/* Image placeholder - you can add your own image here */}
-              <div className="w-full h-96 bg-gradient-to-br from-purple-500/20 to-primary/20 flex items-center justify-center">
-                <p className="text-muted-foreground">Add your image here</p>
-              </div>
+              <img 
+                src="https://i.postimg.cc/KjPzLYFS/IMG-20230818-181118-4-removebg-preview.png" 
+                alt="Eleazear Dady Profile" 
+                className="w-full h-auto object-contain bg-gradient-to-br from-purple-500/20 to-primary/20 p-4"
+              />
             </div>
           </div>
           
