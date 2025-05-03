@@ -73,7 +73,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">dady.mboumeu@example.com</p>
+                  <p className="font-medium">brahamyoubi@gmail.com</p>
                 </div>
               </div>
               
@@ -83,7 +83,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Phone</p>
-                  <p className="font-medium">+123 456 7890</p>
+                  <p className="font-medium">+237 674440043/688833390</p>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const ContactSection = () => {
               <h4 className="text-lg font-semibold mb-3">Connect with me</h4>
               <div className="flex gap-3">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/branhamyoub23" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
@@ -110,7 +110,7 @@ const ContactSection = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="mailto:dady.mboumeu@example.com" 
+                  href="mailto:brahamyoubi@gmail.com" 
                   className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
                   aria-label="Email"
                 >

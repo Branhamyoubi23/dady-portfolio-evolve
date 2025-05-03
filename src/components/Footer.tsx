@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-3 mb-3">
               <a 
-                href="https://github.com" 
+                href="https://github.com/branhamyoub23" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
@@ -42,7 +42,7 @@ const Footer = () => {
                 <Linkedin className="h-4 w-4" />
               </a>
               <a 
-                href="mailto:dady.mboumeu@example.com" 
+                href="mailto:brahamyoubi@gmail.com" 
                 className="w-9 h-9 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
                 aria-label="Email"
               >
