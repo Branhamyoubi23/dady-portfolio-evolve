@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import Typewriter from '@/components/Typewriter';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   const [loaded, setLoaded] = useState(false);
@@ -65,12 +66,17 @@ const HeroSection = () => {
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-purple-500/10 rounded-full"></div>
               <div className="absolute -bottom-10 -left-10 w-60 h-60 bg-purple-500/10 rounded-full"></div>
               
-              <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="https://i.postimg.cc/KjPzLYFS/IMG-20230818-181118-4-removebg-preview.png" 
-                  alt="Eleazear Dady Profile" 
-                  className="w-full h-auto object-contain bg-gradient-to-br from-purple-500/20 to-primary/20"
-                />
+              <div className="relative z-10 flex justify-center items-center">
+                <div className="w-72 h-72 rounded-full overflow-hidden border-4 border-purple-500/30 shadow-xl bg-gradient-to-br from-purple-500/20 to-primary/20">
+                  <Avatar className="w-full h-full">
+                    <AvatarImage 
+                      src="https://i.postimg.cc/brq5JgRh/IMG-20230531-142931-7-removebg-preview.png" 
+                      alt="Eleazear Dady Profile" 
+                      className="w-full h-full object-cover"
+                    />
+                    <AvatarFallback className="text-4xl">ED</AvatarFallback>
+                  </Avatar>
+                </div>
               </div>
               
               <div className="absolute top-1/2 left-0 -translate-x-1/4 -translate-y-1/2 w-20 h-20 bg-purple-500/20 rounded-full animate-pulse"></div>
