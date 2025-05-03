@@ -66,11 +66,10 @@ const HeroSection = () => {
               <div className="absolute -bottom-10 -left-10 w-60 h-60 bg-purple-500/10 rounded-full"></div>
               
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-xl">
-                <img 
-                  src="/lovable-uploads/e390ae1b-43ea-4928-a0ac-b0d2b691457b.png" 
-                  alt="Mboumeu Youbi Eleazear Dady" 
-                  className="w-full object-cover"
-                />
+                {/* Image placeholder - you can add your own image here */}
+                <div className="w-full h-96 bg-gradient-to-br from-purple-500/20 to-primary/20 flex items-center justify-center">
+                  <p className="text-muted-foreground">Add your image here</p>
+                </div>
               </div>
               
               <div className="absolute top-1/2 left-0 -translate-x-1/4 -translate-y-1/2 w-20 h-20 bg-purple-500/20 rounded-full animate-pulse"></div>
