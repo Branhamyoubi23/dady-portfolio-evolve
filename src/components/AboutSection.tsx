@@ -41,7 +41,7 @@ const AboutSection = () => {
             
             <div className="relative z-10 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://i.postimg.cc/KjPzLYFS/IMG-20230818-181118-4-removebg-preview.png" 
+                src="https://i.postimg.cc/brq5JgRh/IMG-20230531-142931-7-removebg-preview.png" 
                 alt="Eleazear Dady Profile" 
                 className="w-full h-auto object-contain bg-gradient-to-br from-purple-500/20 to-primary/20 p-4"
               />
@@ -84,7 +84,7 @@ const AboutSection = () => {
                 <User className="h-4 w-4 mr-2" />
                 More About Me
               </Button>
-              <Button variant="outline">
+              <Button variant="outline" as="a" href="https://tan-darcey-81.tiiny.site" target="_blank" rel="noopener noreferrer">
                 <FileText className="h-4 w-4 mr-2" />
                 Download CV
               </Button>
