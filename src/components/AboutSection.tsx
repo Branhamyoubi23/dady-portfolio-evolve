@@ -41,7 +41,7 @@ const AboutSection = () => {
             
             <div className="relative z-10 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://i.postimg.cc/KjPzLYFS/IMG-20230818-181118-4-removebg-preview.png" 
+                src="https://i.postimg.cc/kMFPSbV0/5983079246978988742-121-removebg-preview-1.png" 
                 alt="Eleazear Dady Profile" 
                 className="w-full h-auto object-contain bg-gradient-to-br from-purple-500/20 to-primary/20 p-4"
               />
@@ -54,9 +54,19 @@ const AboutSection = () => {
             </h3>
             
             <p className="text-lg">
-              I'm a passionate junior full-stack developer with a specialization in front-end technologies.
-              With 2 years of experience in building responsive and interactive web applications,
-              I love tackling new challenges and creating exceptional digital experiences.
+              I'm a full-stack web developer with a strong focus on building clean, modern, and scalable web applications. I bring hands-on experience in frontend development using React.js, Next.js, and JavaScript, creating fast and intuitive user interfaces. On the backend, I use Express.js to build secure APIs and server-side logic that power real-world applications.
+            </p>
+            
+            <p className="text-lg">
+              I'm also skilled in database management, working with PostgreSQL and MySQL to design efficient data structures and ensure smooth data flow between client and server.
+            </p>
+            
+            <p className="text-lg">
+              Whether you're a startup looking to launch your MVP or a business in need of a reliable freelance developer to bring your ideas to life, I'm ready to help. I value clean code, clear communication, and delivering results that meet your vision.
+            </p>
+            
+            <p className="text-lg font-medium">
+              Let's build something great together.
             </p>
             
             <div className="space-y-4">
