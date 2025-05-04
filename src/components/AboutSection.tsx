@@ -84,7 +84,11 @@ const AboutSection = () => {
                 <User className="h-4 w-4 mr-2" />
                 More About Me
               </Button>
-              <Button variant="outline" as="a" href="https://tan-darcey-81.tiiny.site" target="_blank" rel="noopener noreferrer">
+              <Button 
+                variant="outline" 
+                onClick={() => window.open('https://tan-darcey-81.tiiny.site', '_blank')}
+                className="flex items-center"
+              >
                 <FileText className="h-4 w-4 mr-2" />
                 Download CV
               </Button>

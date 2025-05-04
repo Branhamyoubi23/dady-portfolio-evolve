@@ -73,7 +73,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
-                  <p className="font-medium">brahamyoubi@gmail.com</p>
+                  <p className="font-medium">brahamyoubi3@gmail.com</p>
                 </div>
               </div>
               
@@ -110,7 +110,7 @@ const ContactSection = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="mailto:brahamyoubi@gmail.com" 
+                  href="mailto:brahamyoubi3@gmail.com" 
                   className="w-10 h-10 rounded-full bg-card border border-border flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
                   aria-label="Email"
                 >
