@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { FileText, User } from "lucide-react";
+import { FileText, User, ExternalLink } from "lucide-react";
 
 const AboutSection = () => {
   useEffect(() => {
@@ -41,7 +41,7 @@ const AboutSection = () => {
             
             <div className="relative z-10 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://i.postimg.cc/brq5JgRh/IMG-20230531-142931-7-removebg-preview.png" 
+                src="https://i.postimg.cc/KjPzLYFS/IMG-20230818-181118-4-removebg-preview.png" 
                 alt="Eleazear Dady Profile" 
                 className="w-full h-auto object-contain bg-gradient-to-br from-purple-500/20 to-primary/20 p-4"
               />
@@ -91,6 +91,14 @@ const AboutSection = () => {
               >
                 <FileText className="h-4 w-4 mr-2" />
                 Download CV
+              </Button>
+              <Button 
+                variant="secondary"
+                onClick={() => window.open('#projects', '_self')} 
+                className="flex items-center"
+              >
+                <ExternalLink className="h-4 w-4 mr-2" />
+                View Portfolio
               </Button>
             </div>
           </div>
